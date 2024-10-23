@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstPhotoFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background">
+
+        <TextView
+            android:id="@+id/ques"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginRight="32dp"
+            android:text="Add your first photo"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:translationY="-10dp" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ques"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:text="Choose a photo of just you where you can clearly see your face. You can change this later."
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:translationY="-10dp" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48dp"
+            android:orientation="vertical"
+            >
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/choose">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:background="@drawable/button"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="24dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:text="Choose a photo"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:maxLength="24"
+                    android:id="@+id/choose_photo_text"/>
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="64dp"
+                    android:id="@+id/choose_photo"
+                    android:src="@drawable/plus" />
+            </RelativeLayout>
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="320dp"
+                        android:id="@+id/preview"
+                        android:layout_below="@id/choose"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginBottom="32dp"
+                        />
+                </RelativeLayout>
+        </ScrollView>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <ImageView
+            android:id="@+id/next"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="24dp"
+            android:rotation="90"
+            android:src="@drawable/slide_right" />
+    </RelativeLayout>
+
+</FrameLayout>

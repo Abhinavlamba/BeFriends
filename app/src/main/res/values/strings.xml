@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Brig App</string>
+    <string name="facebook_app_id">503166871105881</string>
+    <string name="fb_login_protocol_scheme">fb503166871105881</string>
+    <string name="welcome">Welcome</string>
+    <string name="cancel_login">Cancelled</string>
+    <string name="error_login">Error</string>
+    <string name="logout">Logout</string>
+    <string name="firebase_error_login">Firebase Error</string>
+    <string name="api_key">bWFnZ2llOnN1bW1lcnM</string>
+    <string name="headline">Show everyone what you are made of</string>
+    <string name="subheadline">Every Bizz profile needs a headline that summarizes who you are, what you do, or what you are looking for.</string>
+    <string name="sampleheading">I work at this company and I am looking to connect with people in other industries.</string>
+    <string name="headinghint">Use this space to give a brief outline of who you are on Brig Buzz.</string>
+    <string name="title_slider_1">Just</string>
+    <string name="description_slider_1"></string>
+
+    <string name="title_slider_2">Swipe</string>
+    <string name="description_slider_2"></string>
+
+    <string name="title_slider_3">And</string>
+    <string name="description_slider_3"></string>
+
+    <string name="title_slider_4">Find</string>
+    <string name="description_slider_4"></string>
+
+    <string name="title_slider_5">Right</string>
+    <string name="description_slider_5"></string>
+
+    <string name="title_slider_6">Talent</string>
+    <string name="description_slider_6"></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">abcd</string>
+</resources>
